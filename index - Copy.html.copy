@@ -48,35 +48,14 @@
                     <form class="bg-dark">
                         <p>Filter Search</p>
                     </form>
-                    <!-- creating four new filter options within the form-->
                     <ul class="list-group bg-dark">
                         <li class="list-group-item bg-dark">
-                            <label for="date">Enter Date</label><br>
-                            <input type="text" placeholder="1/10/2020" id="datetime" onchange="updateFilters({id:this.id,value:this.value})" />
+                            <label for="date">Enter Date</label>
+                            <input type="text" placeholder="1/10/2020" id="datetime" />
                         </li>
-                        <li class="list-group-item bg-dark">
-                            <label for="date">City</label><br>
-                            <input type="text" placeholder="benton" id="city" onchange="updateFilters({id:this.id,value:this.value})" />
-                        </li>
-                        <li class="list-group-item bg-dark">
-                            <label for="date">State</label><br>
-                            <input type="text" placeholder="ca" id="state" onchange="updateFilters({id:this.id,value:this.value})" />
-                        </li>
-                        <li class="list-group-item bg-dark">
-                            <label for="date">Country</label><br>
-                            <input type="text" placeholder="us" id="country" onchange="updateFilters({id:this.id,value:this.value})" />
-                        </li>
-                        <li class="list-group-item bg-dark">
-                            <label for="date">Shape</label><br>
-                            <input type="text" placeholder="circle" id="shape" onchange="updateFilters({id:this.id,value:this.value})" />
-                        </li>
-
-                        <!--- comment out the filter button
                         <li class="list-group-item bg-dark">
                             <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
-                        </li> 
-                        -->
-
+                        </li>
                     </ul>
 
                 </div>
