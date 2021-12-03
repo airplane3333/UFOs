@@ -13,6 +13,7 @@ Using the filters on the left side of the page, a user can use multiple filter t
 data specific to their city, state, and coutnry.
  
 ![How to filter data](/static/images/filterData.PNG)
+---
 
 Using the filter, the user can filter the data by Date, City, State, Country, and shape 
 of the object.  Once field is entered, all the user has to do is hit enter to filter the data.
