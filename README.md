@@ -17,7 +17,7 @@ data specific to their city, state, and country.
 
 Using the filter, the user can filter the data by Date, City, State, Country, and shape 
 of the object.  Once field is entered, all the user has to do is hit enter to filter the data.
----
+
 
 ## Summary:
 ---
